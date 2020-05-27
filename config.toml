@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "Restaurant Theme By Themefisher"
+baseURL = "http://anglerspro.shop/"
+languageCode = "fr-fr"
+title = "Angler's PRO SHOP"
 theme = "restaurant-hugo"
 summaryLength = "7"
 paginate = 6
@@ -41,33 +41,33 @@ URL = "js/main.js"
 ############################## navigation ###############################
 
 [[menu.main]]
-name = "Home"
+name = "Accueil"
 URL = "hero-area"
 weight = 1
 
 [[menu.main]]
-name = "About Us"
+name = "A propos"
 URL = "about-us"
 weight = 2
 
-[[menu.main]]
-name = "Blog"
-URL = "blog"
-weight = 3
+# [[menu.main]]
+# name = "Blog"
+# URL = "blog"
+# weight = 3
+
+# [[menu.main]]
+# name = "Price"
+# URL = "price"
+# weight = 4
+
+# [[menu.main]]
+# name = "News"
+# URL = "subscribe"
+# weight = 5
 
 [[menu.main]]
-name = "Price"
-URL = "price"
-weight = 4
-
-[[menu.main]]
-name = "News"
-URL = "subscribe"
-weight = 5
-
-[[menu.main]]
-name = "Contact Us"
-URL = "contact-us"
+name = "Nous contacter"
+URL = "footer"
 weight = 6
 
 
@@ -75,12 +75,12 @@ weight = 6
 [params]
 logo = "images/logo.png"
 # meta data
-author = "Themefisher"
+author = "Thieery DURANTET"
 description = "This is meta description"
 # google analitycs ID
-google_analitycs_id = "Your ID"
+#google_analitycs_id = "Your ID"
 # copyright
-copyright = "Copyright 2020 - All Rights Reserved. Design and Developed By Themefisher.com"
+copyright = "Copyright 2020 - All Rights Reserved. Design and Developed By Themefisher.com and Thommil"
 
 # Preloader
 [params.preloader]
@@ -90,10 +90,10 @@ preloader = "" # use .png , .svg or .gif format
 ################################### Footer ############################
 [params.footer]
 enable = true
-contactInfoTitle = "CONTACT <span>INFO</span> "
-blogTitle = "LATEST <span>BLOG POSTS</span>"
-galleryTitle = "PHOTO <span>STREAM</span>"
-socialTitle = "Follow <span>US</span>"
+contactInfoTitle = "<span>INFO</span> CONTACT"
+# blogTitle = "LATEST <span>BLOG POSTS</span>"
+# galleryTitle = "PHOTO <span>STREAM</span>"
+# socialTitle = "Follow <span>US</span>"
 
 ############################ footer contact item
 [[params.footer.contactItem]]
@@ -112,37 +112,37 @@ icon = "fa fa-envelope"
 content = "rest@gmail.com - rest@mail.ru"
 
 ######################### footer gallery
-[[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
+# [[params.footer.gallery]]
+# image = "images/slider/slider-img-1.jpg"
 
-[[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
+# [[params.footer.gallery]]
+# image = "images/slider/slider-img-2.jpg"
 
-[[params.footer.gallery]]
-image = "images/slider/slider-img-3.jpg"
+# [[params.footer.gallery]]
+# image = "images/slider/slider-img-3.jpg"
 
-[[params.footer.gallery]]
-image = "images/slider/slider-img-4.jpg"
+# [[params.footer.gallery]]
+# image = "images/slider/slider-img-4.jpg"
 
-[[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
+# [[params.footer.gallery]]
+# image = "images/slider/slider-img-1.jpg"
 
-[[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
+# [[params.footer.gallery]]
+# image = "images/slider/slider-img-2.jpg"
 
 ######################## Social Icon 
 [[params.footer.socialLink]]
 icon = "facebook"
 link = "https://fb.com/themefisher"
 
-[[params.footer.socialLink]]
-icon = "twitter"
-link = "https://fb.com/themefisher"
+# [[params.footer.socialLink]]
+# icon = "twitter"
+# link = "https://fb.com/themefisher"
 
-[[params.footer.socialLink]]
-icon = "dribbble"
-link = "https://fb.com/themefisher"
+# [[params.footer.socialLink]]
+# icon = "dribbble"
+# link = "https://fb.com/themefisher"
 
-[[params.footer.socialLink]]
-icon = "instagram"
-link = "https://fb.com/themefisher"
+# [[params.footer.socialLink]]
+# icon = "instagram"
+# link = "https://fb.com/themefisher"
