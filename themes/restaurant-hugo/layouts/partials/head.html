@@ -10,7 +10,7 @@
 
   <meta property="og:title" content="{{ .Title }}" />
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}" />
-  <meta property="og:image" content="{{ .Site.Params.logo | absURL}}" />
+  <meta property="og:image" content="{{ .Site.Params.image | absURL}}" />
 
 
   {{ "<!-- plugins -->" | safeHTML }}
