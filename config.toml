@@ -97,19 +97,24 @@ contactInfoTitle = "<span>INFO</span> CONTACT"
 
 ############################ footer contact item
 [[params.footer.contactItem]]
-title="Telephone"
+title="Téléphone"
 icon = "fa fa-phone"
-content = "016742 323313"
+content = "09 81 32 52 94"
 
 [[params.footer.contactItem]]
-title="Address"
+title="Adresse"
 icon = "fa fa-map-marker"
-content = "2046 Blue Spruce Lane Laurel Canada"
+content = "36 Boulevard PESCHAIRE ALIZON 07150 VALLON PONT D'ARC"
 
 [[params.footer.contactItem]]
-title="E mail"
+title="E-mail"
 icon = "fa fa-envelope"
-content = "rest@gmail.com - rest@mail.ru"
+content = "thierry.durantet@hotmail.fr "
+
+[[params.footer.contactItem]]
+title="Facebook"
+icon = " fa fa-facebook"
+content = "https://www.facebook.com/durantet.thierry"
 
 ######################### footer gallery
 # [[params.footer.gallery]]
@@ -131,9 +136,9 @@ content = "rest@gmail.com - rest@mail.ru"
 # image = "images/slider/slider-img-2.jpg"
 
 ######################## Social Icon 
-[[params.footer.socialLink]]
-icon = "facebook"
-link = "https://fb.com/themefisher"
+# [[params.footer.socialLink]]
+# icon = " fa facebook"
+# link = "https://fr-fr.facebook.com/durantet.thierry"
 
 # [[params.footer.socialLink]]
 # icon = "twitter"

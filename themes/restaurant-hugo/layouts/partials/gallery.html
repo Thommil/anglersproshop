@@ -8,6 +8,13 @@
 					<div class="title">
 						<h3>{{ .title | markdownify }}</h3>
 					</div>
+					<div class="check-list">
+						<ul>
+							{{ range .features }}
+								<li>{{ . }}</li>
+							{{ end }}
+						</ul>
+					</div>
 					<div class="gallery-slider">
 						{{ range .images }}
 						<a href="{{ . | absURL }}" class="venobox" data-gall="sliderGallery"><img class="img-responsive"

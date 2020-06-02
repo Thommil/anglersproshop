@@ -7,7 +7,11 @@ hero_area:
 ################### Gallery ###################
 gallery:
   enable : true
-  title : "Le magasin"
+  title : "à Vallon Pont d'Arc"
+  features:
+    - "articles de pêche"
+    - "location de matériel"
+    - "vente de permis"
   images:
     - "images/slider/slide1.jpg"
     - "images/slider/slide2.jpg"
@@ -19,7 +23,7 @@ gallery:
 about:
   enable : true
   image : "images/thierry.png"
-  title : "Un petit mot du patron !!!!"
+  title : "Thierry vous accueille dans son magasin !"
   description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
   
 ################# Blog ######################

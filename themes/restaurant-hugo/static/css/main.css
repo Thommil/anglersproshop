@@ -290,7 +290,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
     about-us Start
 --*/
 #about-us {
-  padding: 100px 0px;
+  padding: 20px 0px;
   background: #F6F6F6;
 }
 
@@ -742,7 +742,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
     footer Start
 --*/
 #footer {
-  padding: 70px 0px;
+  padding: 20px 0px;
 }
 
 #footer .gallery li {
@@ -967,4 +967,43 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   background: #FF4F02;
   color: #fff;
   border-color: #FF4F02
+}
+
+/**
+  CUSTOM
+**/
+
+
+@media screen and (max-width: 640px) { 
+  .navigation .block {
+    display: none;
+  }
+}
+
+.check-list {
+  font-size : 1.6em;
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.check-list li {
+  position: relative;
+  list-style-type: none;
+  padding-left: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.check-list li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 5px;
+    height: 11px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: #00a8a8;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
 }
