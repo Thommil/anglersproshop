@@ -76,6 +76,7 @@ weight = 6
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
+image = "images/header.jpg"
 # meta data
 description = "Articles de pêche, location de matériel, vente de oermis. Thierry vous accueille dans son magasin à Vallon Pont d'Arc."
 author= "Thierry DURANTET"
