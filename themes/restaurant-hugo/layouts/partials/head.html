@@ -8,6 +8,11 @@
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}" />
+  <meta property="og:image" content="{{ .Site.Params.logo | absURL}}" />
+
+
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .URL | absURL }}">

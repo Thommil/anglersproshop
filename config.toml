@@ -2,6 +2,8 @@
 baseURL = "http://anglerspro.shop/"
 languageCode = "fr-fr"
 title = "Angler's PRO SHOP"
+description = "Articles de pêche, location de matériel, vente de oermis. Thierry vous accueille dans son magasin à Vallon Pont d'Arc."
+author= "Thierry DURANTET"
 theme = "restaurant-hugo"
 summaryLength = "7"
 paginate = 6
@@ -75,8 +77,8 @@ weight = 6
 [params]
 logo = "images/logo.png"
 # meta data
-author = "Thieery DURANTET"
-description = "This is meta description"
+description = "Articles de pêche, location de matériel, vente de oermis. Thierry vous accueille dans son magasin à Vallon Pont d'Arc."
+author= "Thierry DURANTET"
 # google analitycs ID
 #google_analitycs_id = "Your ID"
 # copyright
