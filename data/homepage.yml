@@ -23,8 +23,8 @@ gallery:
 about:
   enable : true
   image : "images/thierry.png"
-  title : "Thierry vous accueille dans son magasin !"
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
+  title : "Thierry vous accueille !"
+  description : "Passionné de pêche depuis plus de trente ans, j'ai décidé de mettre un terme à ma carrière professionnelle de cuisinier pour me consacrer à ma passion et ainsi transmettre mes connaissances et mes compétences à tous ceux qui veulent découvrir la pêche ou se perfectionner. Alors si vous passez sur Vallon Pont d'Arc, n'hésitez pas à  venir me voir au Shop même si ce n'est que pour échanger sur notre passion commune ou pour avoir des informations sur les spots du coin ou la meilleure technique à utiliser en fonction du moment et du poisson recherché. À très bientôt, simply enjoy fishing !!!"
   
 ################# Blog ######################
 blog:
